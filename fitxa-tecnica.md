@@ -26,6 +26,9 @@ Per comprovar la configuració de xarxa podem utilitzar aquesta comanda:
 ```bash
 ip a
 ```
+### Imatge del procés
+
+![Ubuntu Server a VirtualBox](imatges/ubuntu-server.png)
 ## Comprovacions
 - [ ] La màquina virtual s'inicia correctament.
 - [ ] Ubuntu Server arrenca sense errors.
@@ -37,6 +40,12 @@ ip a
 |---|---|
 | La màquina virtual no arrenca des de la ISO | Revisar que la imatge ISO estigui seleccionada a la configuració de la màquina virtual |
 | No hi ha connexió a Internet | Comprovar la configuració de xarxa de VirtualBox |
+
+## Flux de treball amb Git
+
+Durant l'activitat he anat fent els canvis per parts. Amb `git status` he comprovat l'estat dels fitxers i amb `git diff` he revisat els canvis abans de guardar-los.
+
+Després he utilitzat `git add` per preparar els fitxers i `git commit` per guardar cada canvi amb un missatge descriptiu. Finalment, he sincronitzat els commits amb GitHub.
 
 ## Recursos
 - [Documentació oficial d'Ubuntu Server](https://ubuntu.com/server/docs)
