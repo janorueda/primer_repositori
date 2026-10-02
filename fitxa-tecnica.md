@@ -20,15 +20,24 @@ Instal·lar Ubuntu Server en una màquina virtual amb VirtualBox i deixar-la pre
 7. Configurar l'usuari, el nom del servidor i la contrasenya.
 8. Esperar que acabi la instal·lació i reiniciar la màquina virtual.
 9. Iniciar sessió amb l'usuari creat.
+
+Per comprovar la configuració de xarxa podem utilitzar aquesta comanda:
+
+```bash
+ip a
+```
 ## Comprovacions
 - [ ] La màquina virtual s'inicia correctament.
 - [ ] Ubuntu Server arrenca sense errors.
 - [ ] Puc iniciar sessió amb l'usuari creat.
 - [ ] La màquina virtual té connexió a la xarxa.
-## Incidències i solucions
 
+## Incidències i solucions
 | Incidència | Solució |
 |---|---|
-|  |  |
+| La màquina virtual no arrenca des de la ISO | Revisar que la imatge ISO estigui seleccionada a la configuració de la màquina virtual |
+| No hi ha connexió a Internet | Comprovar la configuració de xarxa de VirtualBox |
 
 ## Recursos
+- [Documentació oficial d'Ubuntu Server](https://ubuntu.com/server/docs)
+- [Documentació de VirtualBox](https://www.virtualbox.org/wiki/Documentation)
